@@ -20,6 +20,8 @@ Alternatively, make the file executable (`chmod +x pvault.py`) and run:
 
 Add an alias for the username/password to use as an identifier. The vault password is used to generate a key to encrypt your username and password. This does not have to be the same password for each entry: you _can_ use a different vault password for each entry, as each one is encrypted individually.
 
+Encrypted usernames and passwords are stored in `pvault.pv` in the same directory as `pvault.py`.
+
 ### Dependencies
 Requires:
 * Python3.6+
